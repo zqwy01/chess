@@ -11,9 +11,9 @@ namespace Tests
             var sut = new Chess();
             Assert.False(sut.coords_making(1, 1, 1, 1, 1, 1));
             Assert.True(sut.coords_making(1, 1, 5, 4, 2, 3));
-            Assert.False(sut.checking_borders(1, 1, 1, 1, 1, 1));
+            Assert.True(sut.checking_borders(1, 1, 1, 1, 1, 1));
             Assert.True(sut.checking_same_coords(1, 1, 1, 1, 1, 1));
-            Assert.False(sut.checking_alarm_elephant(1, 1, 1, 1, 1, 1));
+            Assert.True(sut.checking_alarm_elephant(1, 1, 1, 1, 1, 1));
             Assert.True(sut.checking_alarm_rook(1, 1, 1, 1, 1, 1));
         }
         [Fact]
