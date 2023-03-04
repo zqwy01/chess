@@ -11,6 +11,7 @@ void Starting()
     coords_making(int.Parse(array_coordinats[0]), int.Parse(array_coordinats[1]), int.Parse(array_coordinats[2]), int.Parse(array_coordinats[3]), int.Parse(array_coordinats[4]), int.Parse(array_coordinats[5]));
 }
 //Загрузка координат
+//тест
 void coords_making( int KX, int KY, int RX, int RY, int EX, int EY)
 {
     Console.WriteLine("Коордианты:\n\n"+ "KingX - " + KX + "\nKingY - " + KY + "\nRookX - " + RX + "\nRookY - " + RY + "\nElephantX - " + EX + "\nElephantY - " + EY + "\n");
