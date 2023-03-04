@@ -1,6 +1,7 @@
 ﻿using System.Net.NetworkInformation;
 
-//Метод точка входа. 
+//Метод точка входа.
+//Тестовый пул
 void Starting()
 {
     Console.WriteLine("Успешный запуск\nВведите значение в формате ниже\n");
