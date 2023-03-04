@@ -1,5 +1,4 @@
 ﻿using System.Net.NetworkInformation;
-//Методы
 //Метод точка входа.
 void Starting()
 {
